@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/a8459c15-3f89-4ff4-8366-f1ca8e9b8b43
+**URL**: https://form-fetcher-hub.zainlion999.workers.dev/
 
 ## How can I edit this code?
 

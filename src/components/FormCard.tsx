@@ -42,8 +42,8 @@ export const FormCard = () => {
     setIsSuccess(false);
 
     try {
-      // Replace with your Flask API endpoint
-      const API_ENDPOINT = "http://localhost:5000/api/submit";
+      // Flask API endpoint on PythonAnywhere
+      const API_ENDPOINT = "https://ZainAli19.pythonanywhere.com/submit";
       
       const response = await fetch(API_ENDPOINT, {
         method: "POST",

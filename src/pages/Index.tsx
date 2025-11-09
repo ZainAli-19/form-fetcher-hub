@@ -1,13 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { FormCard } from "@/components/FormCard";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <main className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-background via-background to-secondary/20">
+      <div className="w-full max-w-6xl mx-auto">
+        <div className="text-center mb-8 space-y-4">
+          <h1 className="text-5xl font-bold tracking-tight">
+            <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+              Welcome
+            </span>
+          </h1>
+          <p className="text-lg text-muted-foreground max-w-md mx-auto">
+            Fill out the form below and your data will be sent to your Flask API
+          </p>
+        </div>
+        
+        <div className="flex justify-center">
+          <FormCard />
+        </div>
       </div>
-    </div>
+    </main>
   );
 };
 

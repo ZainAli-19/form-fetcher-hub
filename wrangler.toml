@@ -1,8 +1,4 @@
-name = "form-fetcher-hub"            # Must match your repository/CI Worker name
-compatibility_date = "2025-11-10"    # Use today's date in YYYY-MM-DD format
-
-[site]
-bucket = "./dist"                     # Path to your Vite build output
-entry-point = "workers-site"          # Required for Workers Sites
+name = "form-fetcher-hub"
+compatibility_date = "2025-11-10"
 
 # This file configures Wrangler v4 and tells it to deploy the site from ./dist.
